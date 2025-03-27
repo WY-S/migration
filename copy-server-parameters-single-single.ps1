@@ -1,7 +1,7 @@
 # Command to execute
-# .\copy-server-parameters.ps1 -JsonFilePath "Path\To\Your\JsonFile.json" -SourceSubscriptionId "Value1" -SourceResourceGroup "Value2" -SingleServerName "Value3" -TargetSubscriptionId "Value4" -TargetResourceGroup "Value5" -TargetSingleServerName "Value6"
+# .\copy-server-parameters-single-single.ps1 -JsonFilePath "Path\To\Your\JsonFile.json" -SourceSubscriptionId "Value1" -SourceResourceGroup "Value2" -SingleServerName "Value3" -TargetSubscriptionId "Value4" -TargetResourceGroup "Value5" -TargetSingleServerName "Value6"
 # Example:
-#  .\copy-server-parameters.ps1 -JsonFilePath "C:\Automigration\JsonFile.json" -SourceSubscriptionId "11111111-1111-1111-1111-111111111111" -SourceResourceGroup "my-source-rg" -SingleServerName "source-server-single" -TargetSubscriptionId "11111111-1111-1111-1111-111111111111" -TargetResourceGroup "my-target-rg" -TargetSingleServerName "target-server-flexible"
+#  .\copy-server-parameters-single-single.ps1 -JsonFilePath "C:\Automigration\JsonFile.json" -SourceSubscriptionId "11111111-1111-1111-1111-111111111111" -SourceResourceGroup "my-source-rg" -SingleServerName "source-server-single" -TargetSubscriptionId "11111111-1111-1111-1111-111111111111" -TargetResourceGroup "my-target-rg" -TargetSingleServerName "target-server-flexible"
 
 
 param (
