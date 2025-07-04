@@ -1,0 +1,19 @@
+Root Cause
+On 06-22, the server underwent maintenance which included a new code package update. Following this update, the server began to exhibit missing telemetry signals shortly after receiving a fresh OS base image. Over time, it experienced sustained high CPU usage and elevated OS disk I/O, eventually leading to the server becoming unresponsive or unavailable.
+ 
+The root cause was identified as a compatibility issue between the telemetry component in the latest secured OS base image and other system services. This incompatibility sometimes resulted in abnormal resource consumption at the system level, negatively affecting overall server responsiveness.
+ 
+Why It Wasn't Caught During Testing
+This issue is tied to a race condition that only surfaces under infrequent timing scenarios. Only a small subset of servers encountered this behavior - less than 0.2%, and the resulting unavailability did not manifest immediately—it developed gradually over several days. As a result, the issue did not trigger alerts during standard pre-deployment testing or canary validation, where short-term stability and availability metrics appeared normal.
+ 
+Why it didn't failover even HA enabled
+Despite the degraded state, certain MySQL metrics were still being emitted during the incident window. This indicated that the MySQL engine was not completely down, but rather in a severely degraded or partially frozen state.
+MySQL HA failover logic relies on health signals reported by the MySQL engine. Since the engine was still emitting healthy signals (despite being mostly unresponsive), the HA system did not detect it as a failure, and thus no automatic failover was triggered.
+ 
+Mitigation and Fix Forward
+To ensure ongoing deployment continuity and maintain security compliance, we have updated the deployment to use a previous stable version of the OS base image while the issue is being fully resolved. This approach allows us to proceed with deployments safely without canceling or delaying them.
+ 
+For this server that has already received the affected image, we are developing automation to detect and mitigate the issue without requiring manual intervention.
+ 
+The full fix will be deployed in July or August.
+If you would like us to apply the fix proactively, please let me know all server list (or subscription) and we will patch by the fix. The fix does not require restart and wont impact your live production.
