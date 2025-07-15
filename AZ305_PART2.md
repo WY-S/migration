@@ -210,6 +210,20 @@ C. Azure Migrate
 
 
 
+31、VM
+
+ You have an Azure virtual machine named VM1 that **runs Windows Server 2019 and contains 500 GB of data files**.  You are designing a solution that wi l use Azure Data Factory to transform the data files, and then load the files to Azure Data Lake Storage.  
+
+What should you deploy on VM1 to support the design? 
+
+
+
+C. the self-hosted integration runtime
+
+
+
+
+
 ## Network
 
 1、network
@@ -406,6 +420,18 @@ C. Azure Data Factory
 
 
 
+30、ADF
+
+You have **100 Microsoft SQL Server Integration Services (SSIS) packages** that are configured to use 10 on-premises SQL Server databases as their destinations.  You plan to migrate the 10 on-premises databases to Azure SQL Database.  You need to recommend a solution to create Azure-SQL Server Integration Services (SSIS) packages. The solution must ensure that the packages can target the  SQL Database instances as their destinations. 
+
+
+
+ B. Azure Data Factory
+
+
+
+
+
 26、AKS
 
 You need to deploy an Azure Kubernetes Service (AKS) solution that wi l use Windows Server 2019 nodes. The solution must meet the fo lowing requirements:  
@@ -422,7 +448,17 @@ Support autoscaling of Windows Server containers.
 
 
 
+28、AKS
 
+You need to recommend an Azure Kubernetes Service (AKS) solution that wi l use Linux nodes. The solution must meet the fo lowing requirements:  Minimize the time it takes to provision compute resources during scale-out operations.  
+
+Support autoscaling of Linux containers.  
+
+Minimize administrative effort.  
+
+
+
+ C. virtual nodes
 
 
 
@@ -432,25 +468,13 @@ Support autoscaling of Windows Server containers.
 
 
 
+29、000
 
 
 
 
 
 
-28、
-
-
-
-29、
-
-
-
-30、
-
-
-
-31、
 
 
 
