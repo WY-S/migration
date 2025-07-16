@@ -1,0 +1,288 @@
+I wrote new blog that contributed to Azure Database for MySQL Tech Community. The blog includes the details of CDC which our customers often use but our support engineers may not be familiar with. I wrote the blog that would be help to understand what is CDC and build a test environment to reproduce customers' issue. If customers need guidance to build CDC, our support engineers could refer to this blog and share with customer. 
+In the community website, there are a few blogs that were published a few years ago. Some of the queries and scripts were already deprcated. I contacted the contributors to update the blogs to make sure the information is up to date. The contributors mentioned my suggestions are helpful and they would update their blogs. This can also save time for readers to build their environment and reduce the questions that customers have.  
+
+I contributed to Support-Delivery Excellence, drove positive, solid, incremental improved customer experience. Customer also gave positive feedback to my support-delivery.
+CSAT 4.89 above Team CSAT 4.87
+IR 100% above Team IR 99.5%
+DSAT No above Team DSAT 0.5%
+
+
+I have a few customers that are new to develop application. They would need extra guidance to their code to connect Azure MySQL server. For this scenario, I did my best to share the sample code or suggestions to help customers understand the methodology and save their time in the development. Customers always found my suggestions were valuable and improved their experience. 
+
+
+
+
+
+My individual accomplishment: Completing the D&I Course helped me increase my self-awareness. I learned to identify unconscious bias and gained a better understanding of my privilege. 
+
+Also I have engaged some of my colleagues to discuss the topic of unconscious bias and team effectiveness. I was partnering with them to schdule a series of coffee-talks to discuss learnings from the D&I Course.
+
+Contributions: An additional way in which I have applied my learning is during meetings. I intentionally create space for open discussion, and ensure that all attendees have an opportunity to contribute and speak up. I noticed that this led to richer conversations and better collaboration among team members. Feedback from my Perspectives confirmed that my team members value and appreciate my approach to inclusive meetings, and my contribution to building an inclusive team culture."
+
+To realize our full potential as an organization, I created a place for open discussion where everyone feels included, valued, and empowered to contribute their perspectives and ideas. We shared ideas to help us better understand what bias is and how it impacts us in the workplace. Feedback from my colleagues is positive and they appreciated my approach to the inclusive talks, and my contribution to build an inclusive team culture.
+
+
+
+
+When I newly joint our team, I was not very familiar with the product and troubleshooting tools. I usually spent a long time troubleshooting. I often sought help from senior team members, who is able to quickly identify the issue and give me guidance on how to use the troubleshooting tools. 
+
+I took the time to learn the troubleshooting tools and write down the notes. I realized that I could have benefited from additional training on the specific issues. I made a plan to attend a training session on the topic and to review relevant documentation to improve my knowledge and skills.
+
+As a result of this reflection and adjustment, I was better equipped to handle similar issues. I also demonstrated the commitment to continuous learning and improvement, which can help me to grow in the role.
+
+
+
+I would particiate in the technical sharing triages. The triages provides us with knowledge of Azure MySQL and PostgreSQL, and also includes Azure Troubleshooting tools. With the triages, I will be more proficient on our tools and my knowledge will be more solid. 
+I would join our Microsoft Community events. We have many online sessions that are helpful for me to learn the individual and team skills. From these trainings, I can learn skills like self-management, self-activation and social skills like interpersonal relationship management which is useful to build an inclusive team culture.
+
+
+
+For the next plan, I will get ready to PostgreSQL support before June. To achieve this goal, I would make a plan to learn PostgreSQL step by step, and finish the readiness and checkpoints in timely manner. When I finish PostgreSQL readiness, I would
+=====================================
+
+=====================================
+===========  Oct connect writing ==========
+=====================================
+
+I am engaged to write TSGs. The TSGs contains all Azure Database for MySQL support topics and subtopics, and give guideline and troubleshooting details for our support engineers to refer. They are useful for the support engineers when troubleshooting unfamiliar scenarios. Besides, the new employees can use the TSGs to quickly join delivery.
+
+I also help train new hires ramp up. We have a few members join our delivery. I help train some members to work on Azure Database for MySQL support topics. Currently one of them has started working on support tickets, and the other one is on training and will join delivery shortly.
+
+In this calender year, I joint Teams Supportability Channel to Check ava inquries as well. I did the best to check the questions in the channel and shared my suggestions and answers to the engineers who posted the inquries. This would improve their troubleshooting efficiency and deliver answers to the customers faster. 
+
+I contributed to Support-Delivery Excellence, drove positive, solid, incremental improved customer experience. Customer also gave positive feedback to my support-delivery.
+CSAT 4.95 above Team CSAT 4.91
+IR 100% above Team IR 99.5%
+DSAT No above Team DSAT 0.5%
+
+=============chatgpt below==============
+要量化，比如要写多少个topic的TSG，带mentee要多久上手做case。带mentee有什么成绩，charles已经拿了2个CSAT了。
+I am engaged in the task of crafting TSGs, which encompass all Azure Database for MySQL support topics and subtopics. These guides provide comprehensive guidance and troubleshooting information for our support engineers to reference. They prove invaluable when our support engineers encounter unfamiliar scenarios. Additionally, new employees can use these TSGs to swiftly integrate into our delivery process.
+
+I also help train new hires ramp up. We have a few members join our delivery. I have trained some of them to handle Azure Database for MySQL support topics. At present, one of them has already begun addressing support tickets, and the other is undergoing training and is poised to join the delivery team shortly.
+
+Furthermore, this calendar year, I became an active participant in the Teams Supportability Channel to monitor and respond to availability inquiries. I review questions posted in the channel and share my suggestions and answers with the engineers. This proactive engagement aids in enhancing their troubleshooting efficiency and expedites the delivery of solutions to our customers.
+
+I contributed to Support-Delivery Excellence, drove positive, solid, incremental improved customer experience. Customer also gave positive feedback to my support-delivery.
+CSAT 4.95 above Team CSAT 4.91
+IR 100% above Team IR 99.5%
+DSAT No above Team DSAT 0.5%
+
+=====================================
+
+
+My individual accomplishment: I have particiated in D&I Course and joint D&I conversations with my co-workers. We discussed topics such as bias, faith, and gender identity & expression, and I learnt about my colleagues' backgrounds, work styles, and hobbies. 
+
+This conversations give us an opportunity to connect with our team members. It helps me to know more about our teammates and also helped us collaborate more efficiently and effectively. 
+
+Contributions: We have a few new members join the team recently. I engage them into our D&I conversations as well and encouraged them to share their perspectives. Their opinions and ideas are valuable for us to understand them more and to become a good mentor. 
+
+Besides, we collected the feedback after the conversations. Feedback from my colleagues is positive and they appreciated my approach to the inclusive talks, and my contribution to build an inclusive team culture.
+
+An additional way in which I have applied my learning is during meetings. I intentionally create space for open discussion, and ensure that all attendees have an opportunity to contribute and speak up. I noticed that this led to richer conversations and better collaboration among team members. Feedback from my Perspectives confirmed that my team members value and appreciate my approach to inclusive meetings, and my contribution to building an inclusive team culture."
+
+To realize our full potential as an organization, I created a place for open discussion where everyone feels included, valued, and empowered to contribute their perspectives and ideas. We shared ideas to help us better understand what bias is and how it impacts us in the workplace. Feedback from my colleagues is positive and they appreciated my approach to the inclusive talks, and my contribution to build an inclusive team culture.
+
+
+=============chatgpt below==============
+
+My Individual Accomplishments:
+I have actively participated in Diversity and Inclusion (D&I) courses and engaged in D&I conversations with my co-workers. During these discussions, we delved into important topics such as bias, faith, and gender identity and expression. Through these interactions, I gained valuable insights into my colleagues' diverse backgrounds, work styles, and personal interests.
+
+These conversations have provided us with a unique opportunity to foster connections within our team. They have not only expanded my understanding of my fellow team members but have also contributed to more efficient and effective collaboration.
+
+Contributions:
+With the recent addition of new team members, I extended an inclusive invitation for them to join our D&I conversations. I encouraged them to openly share their perspectives, recognizing the significance of their insights in helping us better understand each other and enabling me to serve as a supportive mentor.
+
+In addition, we actively collected feedback following these conversations. The positive feedback received from my colleagues underscores their appreciation for my inclusive approach during these discussions. It is gratifying to see that my contributions have played a part in cultivating an inclusive team culture.
+
+
+=====================================
+
+When I started learning PostgreSQL, there is little learning materials and troubleshooting guidance. I usually spent a long time learning and searching. I often sought help from senior team members, who is able to quickly identify the issue and give me guidance on how to use the troubleshooting tools. 
+
+I took the time to learn the troubleshooting tools and write down the notes. I realized that I could have benefited from additional training on the specific issues. My teammates also shared many valuable learning materials and documents that can help me improve my knowledge and skills.
+
+As a result of this reflection and adjustment, I was better equipped to handle similar issues. I also demonstrated the commitment to continuous learning and improvement, which can help me to grow in the role.
+
+
+
+=============chatgpt below==============
+
+
+When I embarked on my journey to learn PostgreSQL, I encountered a scarcity of learning resources and troubleshooting guidance. Often, I found myself investing substantial time in both learning and searching for solutions. During these challenging moments, I frequently turned to senior team members for assistance. Their expertise allowed them to swiftly identify issues and provide me with invaluable guidance on utilizing troubleshooting tools.
+
+In response to these experiences, I made a deliberate effort to master the troubleshooting tools and meticulously documented my findings. It became evident that additional training focused on specific issues would have been beneficial. Fortunately, my teammates generously shared numerous valuable learning materials and documents, enhancing my knowledge and skill set.
+
+This period of reflection and adjustment significantly bolstered my ability to tackle similar challenges. Moreover, it underscored my unwavering commitment to continuous learning and improvement, which I believe will be instrumental in my ongoing growth within the role.
+
+
+
+=====================================
+
+I would particiate in the technical sharing triages. The triages provides us with knowledge of Azure MySQL and PostgreSQL, and also includes Azure Troubleshooting tools. With the triages, I will be more proficient on our tools and my knowledge will be more solid. 
+I would join our Microsoft Community events. We have many online sessions that are helpful for me to learn the individual and team skills. From these trainings, I can learn skills like self-management, self-activation and social skills like interpersonal relationship management which is useful to build an inclusive team culture.
+
+
+
+For the next plan, I will get ready to PostgreSQL support and join the crisit team. To achieve this goal, I would make a plan to get ready PostgreSQL, and finish the readiness and checkpoints. 
+
+
+
+=============chatgpt below==============
+
+
+I actively participate in technical sharing meetings, which provide valuable insights into Azure MySQL and PostgreSQL. Joining in these triages equips me with proficiency in our tools and solidifies my knowledge base.
+
+Additionally, I am committed to attending our Microsoft Community events, which offer a plethora of online sessions designed to enhance both individual and team skills. These training opportunities cover a wide range of skills, including self-management, self-activation, and essential social skills such as interpersonal relationship management. These skills are indispensable for fostering an inclusive team culture.
+
+As part of my upcoming plans, I am preparing to extend my support to PostgreSQL and join the crisis response team. To attain this objective, I will meticulously devise a step-by-step plan for PostgreSQL readiness, ensuring that I meet all the required checkpoints along the way.
+
+
+
+
+prioritizing the works and receiving help when meeting difficulties. 
+
+
+
+
+
+=====================================
+=========== 2024-Apr connect writing ==========
+=====================================
+
+要量化，比如要写多少个topic的TSG,有什么影响。上周日班，AVA channel对team的帮助。
+Customer experience, product and services:
+I contributed to Support-Delivery Excellence, drove positive, solid, incremental improved customer experience. Customer also gave positive feedback to my support-delivery.
+CSAT 5 above Team CSAT 4.91
+IR 100% above Team IR 99.5%
+DSAT No above Team DSAT 0.5%
+
+Contributions to the success of others:
+Contribute to write TSGs. I have written 2 topics which include 2 subtopics. The TSGs have been updated in our Wikis, which give guideline and troubleshooting details for our support engineers to refer. 
+Dedicate in weekend shift. During the last a few months, I have been ready with PostgreSQL and prepared to join the weekend shift. I can share the Sunday crisit cases for our team and reduce the number of weekend shifts other team members need to work. From May, I will be dedicate to Sunday shift. 
+Check questions posted in the channel. Share my suggestions and answers with the engineers. This proactive engagement enhances their troubleshooting efficiency and expedites the delivery of solutions to our customers.
+
+
+
+=============chatgpt below==============
+
+
+========================================
+
+I have actively participated in Diversity and Inclusion (D&I) courses and engaged in D&I conversations with our team members. In our discussions, we realized sometimes we made a decision based on the first instinct or on a past positive or negative experience. These decisions could be guided by our unconscious bias. We also share our experience on bias, and negative impact it brought.
+
+The cources and conversations helped us understand bias and its impact to team effectiveness. Practicing awareness by acknowleging our unconscious bias and how it affects us can help us question our mindset and behaviors when making decisions. The courses helped us grow up our awareness to counteract unconscious bias, mitigate the work-related disturbances caused by it.
+
+
+
+Our team members are from all over the world. Since we have different universe backgrounds, I did .... to make my thoughts and intentions are clear and obvious to others. 
+
+
+
+========================================
+When I first started doing postgresql cases, I would encounter some complicated situations. Even after checking our TSG and other troubleshooting guidance, there was no good solution. Despite my best efforts, I was unable to solve the problem in timely manner, which led to a delay in the delivery.
+
+I then approached my senior colleagues and mentor, seeking their feedback on my approach to the problem. But seeking help is not always an efficient approach to resolve the issue, my colleagues have their own work to do and may not able to response in time. Therefore, I learnt I need to build up my own skills. 
+
+What I did: 
+To gain more experience, I reviewed my colleagues' cases and learn how to deal with such problems from their handling, especially topics that I am not familiar with.
+To handle the cases faster, I practice multi-task skills in daily work. When I got many works to do, I would organize my tasks and handle them effectively.
+
+After having more experience, I can now deal with problems much faster than before. I learned that when you first start doing something, you will encounter some difficulties. If you encounter difficulties, you must have a growth mindset to overcome them.
+
+=============chatgpt below==============
+
+When I initially began working on PostgreSQL cases, I often found myself dealing with complex situations. Despite thoroughly consulting our Technical Support Guide and other troubleshooting resources, I struggled to find effective solutions. Despite my best efforts, I was unable to resolve the issues promptly, resulting in delays.
+
+Subsequently, I reached out to my senior colleagues and mentors, seeking their feedback on my problem-solving approach. However, I realized that consistently seeking help wasn't the most efficient strategy, as my colleagues also had their own workload and might not always be able to respond in a timely manner. This realization underscored the importance of enhancing my own skills.
+
+Here's what I did:
+To gain more practical experience, I reviewed cases handled by my colleagues, learning how to manage similar problems from their approach, especially those within unfamiliar topics.
+To expedite case resolution, I honed my multitasking skills. Whenever I was faced with multiple tasks, I made a conscious effort to organize my tasks and tackle them effectively. This practice not only improved my productivity but also my problem-solving efficiency.
+
+After having more experience, I am now able to address problems much faster than before. I learnt adopting a growth mindset is essential to navigate these hurdles and continuously improve.
+
+========================================
+
+When I initially began working on PostgreSQL cases, I would encounter some complicated situations. Even after checking our TSG and other troubleshooting guidance, there was no good solution. Despite my best efforts, I was unable to solve the problem promptly, which led to a delay in the delivery.
+
+I then approached my senior colleagues and mentor, seeking their feedback on my approach to the problem. However, seeking help is not always an efficient approach to resolve the issue, as my colleagues also had their own workload and might not always be able to respond in a timely manner. Therefore, I realized I need to build up my own skills: 
+To gain more practical experience, I reviewed cases handled by my colleagues, learning how to manage similar problems from their approach, especially those within unfamiliar topics.
+To expedite case resolution, I practiced my multitasking skills. Whenever I was faced with multiple tasks, I made a conscious effort to organize my tasks and handle them effectively.
+After having more experience, I am now able to address problems much faster than before. I learnt adopting a growth mindset is essential to navigate these hurdles and continuously improve.
+
+========================================
+Technical skills. Since I have not been engaged in postgresql for a long time, I will continue to learn more about PostgreSQL. We have several learning guidelines and Tech Talk trainings that are excellent resources for me. 
+SEE onboarding.
+I also aim to participate in upskilling sessions or programs, which could assist in enhancing my skills and fostering growth in my current role.
+
+========================================
+
+Provide help to my colleagues in resolving the issues they encounter. 
+Have more time to balance my work and life.
+Unsure about the steps I should take to overcome the challenges. 
+Guidance on career development and suggestions to what I should do to move forward in my role. 
+
+
+
+=====================================
+=========== 2024-Oct connect writing ==========
+=====================================
+========================================
+
+Compliance: I consistently upheld integrity, ethical behavior, and adherence to company policies by completing all mandatory compliance trainings and actively participating in audits and investigations. This ensured that I maintained a high standard of professionalism and accountability in my role.
+
+
+I delivered excellent customer support experiences by leveraging Microsoft technology and troubleshooting techniques. 
+Customer also gave positive feedback to my support-delivery: 
+CSAT 5 above Team CSAT 4.9 above CSAT Global 4.85
+IR 100% above Team target 98%
+CritSit IR 100% above Team target 99%
+DSAT No above Team DSAT 0.5%
+IPD 1.9 above Team IPD 1.5
+
+
+I contributed to writing more than 5 TSGs for MySQL and PostgreSQL topics, which have been updated in our Wikis to provide guidelines and troubleshooting details for our support engineers.
+Dedicate in Sunday shift. I have been dedicated to Sunday shifts for the past six months. During this time, I handled Sunday crisit cases for our team, reducing the number of weekend shifts required for other team members. 
+Check questions posted in AVA channel. Share my suggestions and answers with the engineers. This proactive engagement enhances their troubleshooting efficiency and expedites the delivery of solutions to our customers. 
+Mentor the new member from partner team. Help him get ready on PostgreSQL topics.
+I participated in The SkillUp AI DOcathlon, a generative AI series that offers different challenges to improve proficiency with generative AI technologies and build practical and applicable skills. This demonstrates my commitment to using AI tools to improve work efficiency. I also introduced the programs to my colleagues to increase our team's awareness of generative AI technologies. 
+
+
+========================================
+
+I completed the "Speaking Up in Moments that Matter" training and applied these learnings to support my colleagues, fostering an inclusive environment.
+
+Firstly, I participated in team discussions related to D&I, encouraging constructive conversations around diversity and inclusion in our working relationships. This helped to foster an environment where everyone felt valued and included.
+
+Additionally, I demonstrated empathy and practiced allyship skills by connecting with other employees. This included mentoring a new member from the partner team, helping them get ready on PostgreSQL topics and troubleshooting skills. By doing so, I not only supported their professional growth but also contributed to a more inclusive team environment.
+
+Furthermore, I contributed to volunteering as an advisor answering escalated questions in AVA channel. Proactively builds connections for colleagues to ask questions, feel welcomed, and speed up troubleshooting process. 
+
+
+========================================
+
+I completed and applied learnings from required Security Foundations and Trust Code (Standards of Business Conduct) trainings, which helped me stay updated on the latest security practices and guidelines. 
+
+I articulated the Secure Future Initiative (SFI) to customers and partners, helping them understand Microsoft's commitment to security and how it benefits their business.
+
+I stayed informed about the current security landscape by utilizing resources like the Incident Resource Hub. This enabled me to stay updated on new and emerging threats and understand how Microsoft is responding to them.
+
+========================================
+
+
+Azure MySQL single server was retired, but the migration to flexible is not completed for many customers. They need to migrate to flexible and raise crisit/urgent tickets to us. However, Product team does not allow to raise severity 2 ICM to activate the oncall engineer for single to flexible issues. When I received such crisit ticket on Sunday, I needed assistance to fix server issue from the Product Group but couldn't find the resource available. Instead of being discouraged, I took the initiative to find solutions on my own or used soft skills to explain to customers about our limited resources during weekends and the single server retirement policy and explain that issue would request more time.  
+
+Another setback was not fully understanding some content in the TSGs, which required me to engage with the EEE team for help. I took this as an opportunity to learn and improve my knowledge. By seeking assistance from the EEE team, I was able to enhance my understanding of the topics and provide better support to customers in the future.
+
+From this experience, I realized the importance of soft skills. I plan to attend more training sessions and workshops to gain further insights into soft skills. For instance, there are courses available that introduce support engineers to Microsoft's definition of soft skills, discussing what is expected regarding improving customer interactions and utilizing soft skills to resolve escalated situations. Engage in training that emphasizes working with upset customers, delivering bad news, uncovering customer needs, and phone-based customer service. These sessions can help develop empathy and active listening skills, which are crucial for effective communication.
+
+
+
+
+
+
+
+
+

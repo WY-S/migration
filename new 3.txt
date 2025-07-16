@@ -1,0 +1,779 @@
+Thank you for reaching Microsoft. My name is Wenyi Sun and I am the Microsoft Azure Support Engineer who will be working with you on support request . You can reach me using the contact information in my signature. 
+
+Below is the initial scope agreement for your issue. 
+
+Issue Definition: 
+[Your Issue definition] 
+Resource URL: 
+
+We will now begin working together. If you do not agree with the scope defined above, or would like to amend it, please let me know as soon as possible. 
+=========================
+
+
+Please do not hesitate to contact me if you have any further questions or requests related to the case. 
+
+Thank you very much. 
+
+
+非常感谢使用微软平台，我是微软Azure技术工程支持工程师Wenyi Sun，我将负责您在Azure平台上提交的咨询请求，您可以在我的签名中找到我的联系方式。
+
+以下是针对问题的初步范围定义的详细信息。
+
+问题描述：
+您想问如何创建shared key和如何定义request body。
+
+=====
+
+
+
+如果您有任何问题，可以通过邮件或者电话方式进行联系我，期待您的回复！ 
+
+
+
+
+
+
+
+感謝您連絡微軟全球技術支援中心。我是微軟技術支援工程師Wenyi Sun，很高興能有機會協助您解決該問題。
+您可以隨時透過以下連絡方式以及問題代號2412170030003846與我連絡。
+根據您的問題，以下是我們針對此次問題所需處理範圍的說明：
+
+問題定義：
+
+
+說明：
+
+
+以上說明，若有任何問題歡迎隨時與我聯繫；
+針對這次case，我們將協助您做上述範圍的處理。假使您是選擇電子郵件為主要聯絡方式，在一些情況下我們可能會致電給您提供解決方案。以上描述若有任何不正確的地方或有其他疑問，請儘速與我連絡。
+
+順頌商祈
+
+
+谢谢您同意关闭本次技术支持案件，我很荣幸能在此次案件中协助您。如果后续还需要我们帮忙，欢迎联系我重新开启本次案件，或者开一个新的案件。
+
+以下是此技术支持案件的摘要报告，请您参考：
+问题描述：
+。 
+
+问题回答及建议：
+
+
+
+感谢您在本次技术支持案件中的合作，希望您对我们的服务感到满意。
+
+再次感谢您联系微软技术支持，祝您生活愉快，工作顺利。
+
+
+謝謝您同意關閉本次技術支持案件，我很榮幸能在此次案件中協助您。如果後續還需要我們幫忙，歡迎聯繫我重新開啟本次案件，或者開一個新的案件。
+
+以下是此技術支持案件的摘要報告，請您參考：
+問題描述：
+。
+
+問題回答及建議：
+
+
+
+感謝您在本次技術支持案件中的合作，希望您對我們的服務感到滿意。
+
+再此感謝您聯繫微軟技術支持，祝您生活愉快，工作順利。
+
+
+
+Greetings of the day and hope you are doing well.
+
+As I did not hear from you before 18:00 pm 2022/8/31 GMT+10. I’m going to close this ticket soon. If you have any other questions or concerns on the case, you can always let me reopen it at any time.
+
+It is my pleasure assisting you. Here is a summary of the key points for your records.
+
+Issue Definition
+Authorization not working with API Management. 
+Resource URL:  /subscriptions/da777c98-620f-4113-a958-4e10856a45c8/resourceGroups/rg-RWF_Gateway-npd/providers/Microsoft.ApiManagement/service/rwf-npd.
+
+Case Summary
+For this issue, as we could not identify the issue from the description, therefore we would need more information to confirm the issue and provide step to resolve the issue.
+
+We tried to contact you via phone call and Teams, but unfortunately we did not get your reply. Thus, we are going to temporally close this ticket. When you are available to work with us, please kindly contact us and we could reopen this ticket for you.  
+
+
+Thank you for your efforts and cooperation in this case and I hope you are happy with our service.
+
+Also, thank you for choosing Microsoft and have a good day!
+
+
+
+
+这封邮件是想再跟进一下这个案件，请问您是否有其他疑问需要我们协助吗？
+
+如果您有任何疑问，请随时联系我们。
+
+谢谢
+
+
+這是一封跟進郵件，以查看您是否需要進一步的幫助。 
+
+如果您有任何疑問或疑慮，請隨時與我聯繫。 
+
+非常感謝
+
+============================================
+
+因為尚未收到您的回覆，所以希望可以跟您確認一下有沒有任何需要我們補充說明或是協助的地方呢？
+歡迎您隨時讓我知道如果您有其他相關問題或考量，我將會很樂意為您說明！
+謝謝您!
+
+============================================
+
+希望一切都安好，我想與您一起推進此案。
+
+請詢問此案子中還有其他能為您服務的地方嗎？
+
+如果對我之前的回覆有任何疑問，歡迎聯繫我
+
+============================================
+希望目前一切都安好
+
+在前幾天這邊有送出一封問題確認信，目前還沒收到您的回信
+
+希望我之前的回覆有回答您的問題，如果對於該回答有疑問或問題歡迎在跟我聯繫
+ 
+假如回答有解決您的問題，麻煩再通知我這個問題已經解決並可以關閉
+ 
+祝你有美好的一天
+
+
+Hope you are doing great.
+
+I haven't heard back from you yet and I wanted to check with you if your issue has been resolved or not. Please do let me know.
+
+In case I do not hear from you before 18:00 pm 2025/7/11 GMT+10, I will temporarily archive this case. If I am wrong in assuming this then please let me know and I will reopen your case to continue working with you towards a resolution.
+
+I will be your point of contact for this support incident. When you are ready, just contact me to continue and I will reopen this issue.
+
+Have a great day ahead!
+
+
+
+有一段时间没有收到您的消息了，我这边还在跟进您的案件，如果您有任何问题或需要帮助，请通过邮件或签名中的联系方式随时和我们联系。
+
+此外，如果暂时不需要我们这边帮助也不需要跟进的话，请问我们可以暂时关闭此次案件吗？请不用担心，因为您可以随时让我重开这个案件。谢谢。
+
+
+
+有一段时间没有收到您的消息了，我了解您有其他更重要的工作要处理，可能没时间回复之前的邮件。我这边还在跟进您的案件，如果您有任何问题或需要帮助，请通过邮件或签名中的联系方式随时和我们联系。
+
+此外，如果暂时不需要我们这边帮助也不需要跟进的话，请问我们可以暂时关闭此次案件吗？请不用担心，因为您可以随时让我重开这个案件。
+
+谢谢
+
+
+
+Thanks for your permission to archive the case. 
+
+It is my pleasure assisting you. I’m going to close this ticket soon. If you have any other questions or concerns on the case, you can always let me reopen it at any time. 
+
+Here is a summary of the key points for your records.
+
+Issue Definition
+
+
+Resolution
+
+
+Thank you for your efforts and cooperation in this case and I hope you are happy with our service.
+
+Also, thank you for choosing Microsoft and have a good day!
+
+
+
+We are committed to providing excellent service and we value your feedback. If you receive an invitation from Microsoft to complete a brief web survey, we would appreciate if you could take the time to complete it. I hope you are happy and completely satisfied with my service on this support ticket; if you were in any way dissatisfied, please do let me know so I will have the chance to put it right for you.
+
+
+
+
+Thanks for the reply. 
+
+It is my pleasure assisting you. As there is no further questions, I’m going to close this ticket soon. If you have any other questions or concerns on the case, you can always let me reopen it at any time. 
+
+Here is a summary of the key points for your records.
+
+Issue Definition
+
+
+Resolution
+
+
+Thank you for your efforts and cooperation in this case and I hope you are happy with our service.
+
+Also, thank you for choosing Microsoft and have a good day!
+
+
+
+今天尝试拨打您的电话但是很遗憾没能联系到您。
+
+这封邮件是想再跟进一下这个案件，请问您对于这个问题是否还有疑问或者需要我们的协助。
+
+如果您有任何疑问，请随时与我联系。
+
+谢谢
+
+今天嘗試撥打您的電話但是很遺憾沒能聯繫到您。
+
+這封郵件是想再跟進一下這個案件，請問您對於這個問題是否還有疑問或者需要我們的協助。
+
+如果您有任何疑問，請隨時與我聯繫。
+
+謝謝
+
+Hope this email finds you well. 
+
+This is a follow up to see if you have any further questions. 
+
+If you have any questions or concerns, please don’t hesitate to contact us. 
+
+Have a great day.
+
+
+Hope you are doing well. 
+
+This is a follow up to see if you have any further questions. 
+
+If you have any questions or concerns, please don’t hesitate to contact us. 
+
+Have a great day.
+
+
+Please kindly let me know if you have any questions.
+
+
+Greetings of the day and hope you are doing well.
+
+This is a follow up to see if you have any questions or concerns with regards to the information provided. Please let me know if the information provided was helpful or if you need further assistance.
+
+Have a great day ahead!
+
+
+
+Hope you are doing great.
+
+This is to follow up again in case you missed the previous communication. Hope I have provided useful information and answered your questions. If you have any further questions related to this issue, please feel free to let me know, and I will be happy to help.
+
+In addition, if possible, could you please let me know if I can mark this case as resolved for now and move this case towards a closure?
+
+Have a good day.
+
+
+Hope you are doing great.
+
+I haven't heard back from you yet and would like to check with you if you need any further assistance to this request. 
+
+In case I do not hear from you before 17:00 pm 2025/01/22 GMT+8, I will temporarily archive this case. If I am wrong in assuming this then please let me know and I will reopen your case to continue working with you towards a resolution.
+
+I will be your point of contact for this support incident. When you are ready, just contact me and I will reopen this issue.
+
+Have a great day ahead!
+
+
+Hope you are doing great.
+
+I haven't heard back from you yet and I wanted to check with you if your issue has been resolved or not. Please do let me know.
+
+In case I do not hear from you before 18:00 pm 2023/8/31 GMT+10, I will temporarily archive this case. If I am wrong in assuming this then please let me know and I will reopen your case to continue working with you towards a resolution.
+
+I will be your point of contact for this support incident. When you are ready, just contact me when you have the necessary resources to continue and I will reopen this issue.
+
+Have a great day ahead!
+
+
+
+有一段时间没有收到您的消息了，我这边还在跟进您的案件，如果您有任何问题或需要帮助，请通过邮件或签名中的联系方式随时和我们联系。
+
+此外，如果暂时不需要我们这边帮助也不需要跟进的话，请问我们可以暂时关闭此次案件吗？请不用担心，因为您可以随时让我重开这个案件。谢谢。
+
+
+有一段時間沒有收到您的消息了，我這邊還在跟進您的案件，如果您有任何問題或需要幫助，請通過郵件或簽名中的聯繫方式隨時和我們聯繫。
+
+此外，如果暫時不需要我們這邊幫助也不需要跟進的話，請問我們可以暫時關閉此次案件嗎？請不用擔心，因為您可以隨時讓我重開這個案件。
+
+
+
+有一段時間沒有收到您的消息了，我了解您有其他更重要的工作要處理，可能沒時間回復之前的郵件。我還在跟進您的案件，如果您有任何問題或需要幫助，請隨時和我們聯繫。
+
+此外，如果暫時不需要我們這邊幫助也不需要跟進的話，請問我們可以暫時關閉此次案件嗎？請不用擔心，因為您可以隨時讓我重開這個案件。
+
+謝謝
+
+
+
+
+If no more help is needed, may I have your permission to archive this case? Please don’t worry about this operation, because you can let me reopen this case at any time.
+
+
+Besides, all the planned maintenance should happen in the night of the region, so we changed the start time of migration window to 10/13/2023 2:00 PM UTC, which is 10/14/2023 1:00 AM UTC+11 (AEDT). Please inform us if the proposed time is inconvenient for you, and we would be happy to assist in making any necessary adjustments
+
+
+今天尝试拨打您的电话但是很遗憾没能联系到您。
+
+
+他说虽然PE会走骨干网，但是和内网访问相比网速差不多，内网的网速也是很快。
+我今天看了Azure另一个可以设置PE访问的服务，它就有限制VNet integration的server不能配置PE。所以这个还是要等我们文档出来才能知道。
+PE的优势是可以配置多个PE，使得多个VNet可以访问这个MySQL flexible server，如下图。但是我不确定会不会有PE数量的限制。
+
+
+
+az mysql server create --resource-group mysql --name wenyibmysql --location eastus --admin-user azuruser --admin-password SUNwenyi1234 --sku-name B_Gen5_1
+
+az postgres server create --resource-group postgredb --name singlepgdbtest1 --location eastasia --admin-user azureuser --admin-password SUNwenyi1234 --sku-name GP_Gen5_2 --version 10
+
+
+CREATE TABLE COMPANY1(
+   ID INT      NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL,
+   JOIN_DATE      DATE
+);
+
+INSERT INTO COMPANY1 (ID,NAME,AGE,ADDRESS,SALARY,JOIN_DATE) VALUES (1, 'Paul', 32, 'California', 20000.00,'2001-07-13');
+INSERT INTO COMPANY1 (ID,NAME,AGE,ADDRESS,JOIN_DATE) VALUES (2, 'Allen', 25, 'Texas', '2007-12-13');
+
+select p.id as session_id, p.user, p.host, p.db, p.command, p.time, p.state,    substring(p.info, 1, 50) as info,    t.trx_started, unix_timestamp(now()) - unix_timestamp(t.trx_started) as trx_age_seconds, t.trx_rows_modified, t.trx_isolation_level   from information_schema.processlist p    left join information_schema.innodb_trx t    on p.id = t.trx_mysql_thread_id \G
+
+
+
+select * from tbl_subscription_availability_zones where subscription_id = 'aaa90cff-2799-406e-94e0-6a5063567e16' and location = 'SOUTHEASTASIA'
+
+Get-ElasticServerConfig -SubscriptionId 0f6c57b9-7610-459a-9a7b-c387e31ac7ee -ResourceGroup zusw1-d002-b120-rgp-s1-mysql1 -ServerName zusw1-d002-b120-mql-s1-cpelink1 -ServerType MySQL.Server.PAL -ConfigName slow_query_log
+
+
+
+setting "long_query_time" too low can result in a large number of queries being logged in the slow query log, which can impact server performance and make it more difficult to identify truly problematic queries. Therefore, it is important to find a balance between logging enough queries to identify performance issues and not logging too many queries that can impact server performance.
+
+2308290050001946
+
+select * from tbl_subscription_availability_zones where subscription_id = 'd3eca11c-00a6-4079-bf4e-199baa1864ea' and location = 'INDIACENTRAL'
+
+
+ SELECT ( 
+ @@key_buffer_size
+ + @@query_cache_size
+ + @@innodb_buffer_pool_size
+ + @@innodb_log_buffer_size
+ + 12 * ( 
+    @@read_buffer_size
+    + @@read_rnd_buffer_size
+    + @@sort_buffer_size
+    + @@join_buffer_size
+    + @@binlog_cache_size
+    + @@thread_stack
+    + @@tmp_table_size 
+    + 2 * @@net_buffer_length)
+) / (1024 * 1024 ) AS MAX_MEMORY_MB, 
+( @@read_buffer_size
+ + @@read_rnd_buffer_size
+ + @@sort_buffer_size  
+ + @@join_buffer_size
+ + @@binlog_cache_size
+ + @@thread_stack
+ + @@tmp_table_size
+ + 2 * @@net_buffer_length
+) / (1024 * 1024) AS MEMORY_PER_CON_MB;
+
+
+SELECT ( 
+ @@key_buffer_size
+ + @@innodb_buffer_pool_size
+ + @@innodb_log_buffer_size
+ + 12 * ( 
+    @@read_buffer_size
+    + @@read_rnd_buffer_size
+    + @@sort_buffer_size
+    + @@join_buffer_size
+    + @@binlog_cache_size
+    + @@thread_stack
+    + @@tmp_table_size 
+    + 2 * @@net_buffer_length)
+) / (1024 * 1024 ) AS MAX_MEMORY_MB, 
+( @@read_buffer_size
+ + @@read_rnd_buffer_size
+ + @@sort_buffer_size  
+ + @@join_buffer_size
+ + @@binlog_cache_size
+ + @@thread_stack
+ + @@tmp_table_size
+ + 2 * @@net_buffer_length
+) / (1024 * 1024) AS MEMORY_PER_CON_MB;
+
+
+
+SELECT
+    r.trx_mysql_thread_id waiting_thread,
+    r.trx_query waiting_query,
+    concat(timestampdiff(SECOND,r.trx_wait_started,CURRENT_TIMESTAMP()),'s') AS duration,
+    b.trx_mysql_thread_id blocking_thread,
+    t.processlist_command state,
+    b.trx_query blocking_current_query,
+    e.sql_text blocking_last_query
+FROM performance_schema.data_lock_waits w
+JOIN information_schema.innodb_trx b ON b.trx_id = w.BLOCKING_ENGINE_TRANSACTION_ID
+JOIN information_schema.innodb_trx r ON r.trx_id = w.REQUESTING_ENGINE_TRANSACTION_ID
+JOIN performance_schema.threads t on t.processlist_id = b.trx_mysql_thread_id
+JOIN performance_schema.events_statements_current e USING(thread_id) ;
+
+
+
+
+Invoke-MySqlServerScriptWithRunCommand -OrcasInstanceId $orcasInstanceId -ServerName  $serverName -SubscriptionId $subscription -ResourceGroup $resourceGroup -ScriptName get_top_memory_usage_process
+
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+
+
+
+
+
+mysql -h singlebasic.mysql.database.azure.com --enable-cleartext-plugin -u sunwenyi@microsoft.com@singlebasic --password=`az account get-access-token --resource-type oss-rdbms --output tsv --query accessToken`
+
+
+mysql -h singlebasic.mysql.database.azure.com --enable-cleartext-plugin -u wenyi.sun01@outlook.com@singlebasic --password=`az account get-access-token --resource-type oss-rdbms --output tsv --query accessToken`
+
+mysql -h singlebasic.mysql.database.azure.com --enable-cleartext-plugin -u wenyi.sun01@outlook.com@singlebasic --password=`az account get-access-token --query accessToken`
+
+
+// == ==
+mysql -h wenyibmysql.mysql.database.azure.com --enable-cleartext-plugin -u sunwenyi@microsoft.com@wenyibmysql --password=`az account get-access-token --resource-type oss-rdbms --output tsv --query accessToken`
+
+
+mysql -h wenyis8.mysql.database.azure.com --enable-cleartext-plugin -u sunwenyi@microsoft.com@wenyis8 --password=`az account get-access-token --resource-type oss-rdbms --output tsv --query accessToken`
+
+
+mysql -h wenyis8.mysql.database.azure.com --enable-cleartext-plugin -u sunwenyi@microsoft.com@wenyis8 --password='az account get-access-token --resource-type oss-rdbms --output tsv --query accessToken'
+
+
+1. pgsql---share workload
+2. 
+
+
+select concat(round(sum(data_length/1024/1024),2),'MB') as data , concat(round(sum(index_length/1024/1024),2),'MB') as data2 from tables where table_schema='school' and table_name='app_user';
+
+select concat(round(sum(data_length/1024/1024),2),'mb') as data from tables where table_schema='school' and table_name='app_user';
+
+select table_schema,table_name,table_rows, data_length from tables where table_schema='school';
+show variables like 'information_schema%';
+
+
+
+East US 2
+tdl-pro-us-ri00-mysql-eu2-r1 - complete
+tdl-pro-us-ri01-mysql-eu2-r1 - complete
+tdl-pro-us-ri02-mysql-eu2-r1 - 
+tdl-pro-us-ri03-mysql-eu2-r1 - complete
+tdl-pro-us-ri04-mysql-eu2-r1 - 
+tdl-pro-us-ri05-mysql-eu2-r1 - complete
+tdl-pro-us-ri06-mysql-eu2-r1 - 
+
+Central US
+tdl-pro-us-ri00-mysql-cu-r1 - 
+tdl-pro-us-ri01-mysql-cu-r1 - complete
+tdl-pro-us-ri02-mysql-cu-r1 - 
+tdl-pro-us-ri03-mysql-cu-r1 - 
+tdl-pro-us-ri04-mysql-cu-r1 - 
+tdl-pro-us-ri05-mysql-cu-r1 - complete
+tdl-pro-us-ri06-mysql-cu-r1 - 
+
+
+
+
+
+CREATE USER MAPPING FOR azureuser
+    SERVER foreign_server
+    OPTIONS (user 'fdw_user@singlefdw1', password 'secret');
+
+
+
+
+
+If you would like to ask hoAccording to the document, MySQL will allocate memory in two parts: 
+•	Per-thread memory that will be used for each connected thread (thread_stack, net_buff_length, etc.)
+•	Shared memory that will be used for all MySQL processes (innodb buffer pool, table cache, etc.).
+
+MySQL only have metrics for some of the shared memory usage, like innodb buffer pool, but do not know the memory allocation for each thread. Therefore, we can  it would be hard for us to compare two servers without knowing the data in the database server and the flow of queries. 
+
+
+
+
+
+目前我们监测服务健康状态的方法是：在后台有一个health probe定期ping 服务器，如果几次失败，就会认为服务器是不可用的状态，然后触发failover。
+
+9月8日10点04分左右，health probe 监测到不可用，因此触发了failover。
+
+目前的机制确实有一定的问题，可能出现只是health probe出现短暂网络问题但是却触发failover的情况。我们现在正在改进监测的机制，会增加一个维度的监测让它更精准。
+
+
+
+
+
+
+there should be multiples ways to achieve this. try to google it and see the options. Basically, in Windows, tsv is much easier than csv and it can be converted from a tsv to csv. 
+Depends on customer's use cases and complexity of column data, customer can  simply "mysql -h host -u user -p -e 'select * from db.tablename;' > /path/to/directory/file.csv". 
+If the format does not work, considering tsv first and then convert it to csv.
+
+
+
+select * from jdbc_learn.persons2 FIELDS TERMINATED BY '|'  OPTIONALLY ENCLOSED BY ''' LINES TERMINATED BY '\\n' where PersonID>2;
+
+
+
+SELECT * INTO OUTFILE 'C:\\Users\\sunwenyi\\aira_uat.csv' 
+FIELDS TERMINATED BY '|' 
+OPTIONALLY ENCLOSED BY '''
+LINES TERMINATED BY '/\n'
+FROM school.persons2
+where PersonID>1;
+
+
+SELECT * FROM school.persons2 INTO OUTFILE 'C:\\Users\\sunwenyi\\aira_uat.csv' 
+fields terminated by '|' 
+OPTIONALLY ENCLOSED BY ''';
+
+mysql -h singlebasic.mysql.database.azure.com -u azureuser@singlebasic -p -B -e "SELECT * from school.persons2;" | sed "s/\"/\"\"/g;s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > "./abc.csv"
+
+
+mysql -h singlebasic.mysql.database.azure.com -u azureuser@singlebasic -p -B -e "SELECT * from school.persons2;" | sed "s/\"/\"\"/g;s/'/\'/;s/\t/\"|\"/g;s/^/\"/;s/$/\"/;s/\n//g" > "./abc.csv"
+
+mysql -h singlebasic.mysql.database.azure.com -u azureuser@singlebasic -p -B -e "SELECT * from school.persons2;" > "./abc.csv"
+
+
+
+目前我们监测server health的机制是：在后台有一个health probe定期ping VM，如果连续ping几次失败，就会认为server是unavailable的状态，然后就会触发failover。
+
+ 
+
+今天10点04分左右，health probe detect到VM是Unavailable，然后就触发了failover。
+
+
+
+我们目前的机制确实有一定的问题，可能会出现只是health probe不通但是client是可以连接的情况。我们现在正在改进监测的机制，会增加一个维度的监测会让它更精准
+
+SELECT CONCAT( 'SELECT "', TABLE_NAME, '", COUNT(*) FROM ', TABLE_SCHEMA, '.', TABLE_NAME, ' UNION ALL' )  EXEC_SQL
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = 'SCHOOL';
+
+SELECT "app_user", COUNT(*) FROM school.app_user UNION ALL   
+ SELECT "child", COUNT(*) FROM school.child UNION ALL         
+ SELECT "customers", COUNT(*) FROM school.customers UNION ALL 
+ SELECT "my_table", COUNT(*) FROM school.my_table UNION ALL   
+ SELECT "opr", COUNT(*) FROM school.opr UNION ALL             
+ SELECT "opr1", COUNT(*) FROM school.opr1 UNION ALL           
+ SELECT "persons", COUNT(*) FROM school.persons UNION ALL     
+ SELECT "persons2", COUNT(*) FROM school.persons2 UNION ALL   
+SELECT "products", COUNT(*) FROM school.products UNION ALL   
+SELECT "tc_test", COUNT(*) FROM school.tc_test UNION ALL     
+SELECT "users", COUNT(*) FROM school.users;
+
+
+$ServerName = "bi-mysql-dev-az"
+$query = "SELECT customer_subscription_id as SubscriptionId, customer_resource_group_name as ResourceGroup, server_name as ServerName, server_type as ServerType from dbo.entity_orcas_servers where server_name = '$ServerName' and state = 'Succeeded'"
+
+$server = Query-MySqlControlStore -Query $query
+
+if($null -eq $server -or $server. Length -eq 0)
+{
+    Write-Error "Failed to get the server withe name '$ServerName' and state 'Succeeded'"
+}
+
+$json = ($server | Invoke-MySqlServerAppInstanceAction -Action GetAllStatus).Trim('"')
+$status = ConvertFrom-Json -InputObject $json
+$status | Select-Object Names, State, Status, Image | Format-Table | Out-String
+
+
+
+$srv=Get-MySqlServer2 -ServerName bi-mysql-dev-az
+Get-MySqlServerParameter -ReplicationSetId $srv.ReplicationSetId  -ParameterName lower_case_table_names  
+Set-MySqlServerParameter -ReplicationSetId $srv.ReplicationSetId  -ParameterName lower_case_table_names -ParameterValue 2
+Get-MySqlServerParameter -ReplicationSetId $srv.ReplicationSetId  -ParameterName lower_case_table_names  
+
+
+
+
+$srv=Get-MySqlServer2  -ServerName mysql-megabot-sea-dev-test
+Set-MySqlServerParameter -ReplicationSetId $srv.ReplicationSetId  -ParameterName binlog_transaction_dependency_tracking -ParameterValue COMMIT_ORDER
+Set-MySqlServerParameter -ReplicationSetId $srv.ReplicationSetId  -ParameterName log_statements_unsafe_for_binlog -ParameterValue OFF
+
+Get-MySqlServerParameter -ReplicationSetId $srv.ReplicationSetId  -ParameterName binlog_transaction_dependency_tracking
+Get-MySqlServerParameter -ReplicationSetId $srv.ReplicationSetId  -ParameterName log_statements_unsafe_for_binlog
+
+
+
+
+
+https://microsoft.sharepoint.com/sites/HRweb/SitePages/%E4%B8%AD%E6%84%8F%E4%BA%BA%E5%AF%BF%E4%BF%9D%E9%99%A9%E7%90%86%E8%B5%94%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E7%AD%94.aspx
+
+
+For the issue about migration job failure, when we checked the logs, we could see the ERROR:  relation "ndm_46320.t_elmnt_snpsht_for_vw_1_20240318" does not exist
+
+
+這個問題是目前PostgreSQL的一個bug，原因是private endpoint這個功能GA之後，新建的PostgreSQL可以支持Private endpoint，就造成FQDN (server_name.postgres) 變成一個CName （server_name.privatelink.postgres） 指向 A record (公網IP)。因此在DNS解析時會有一個privatelink.postgres。
+
+
+
+az postgres flexible-server replica create --replica-name testregion2-rep1 --resource-group testtoday --source-server testregion2 --location australiasoutheast --sku-name Standard_D2ads_v5
+
+
+select * from pgaadauth_create_principal('wenyipostman', false, false);
+
+
+
+RENAME USER 'newusername'@'%' to 'azureuser'@'%';
+
+
+psql "host=singlepgsql.postgres.database.azure.com port=5432 dbname=postgres user=azureuser@singlepgsql password=SUNwenyi1234 sslmode=disable"
+
+
+
+
+1 Check replica creation status and confirm it is fine 
+2 Estimate how long it will take for replica creation, why it is taking so long?
+3. What caused the high CPU issue between 11.30pm May 18 SGT last night and 11.42am May 19 SGT?
+4.  After upgrading, all user permissions are same as before upgrading, right?
+
+
+export PGPASSWORD=$(az account get-access-token --resource https://ossrdbms-aad.database.windows.net --query "[accessToken]" -o tsv)
+
+psql "host=10.251.197.200 user=o.azure.1653142@zone1.scbdev.net dbname=postgres sslmode=require"
+
+
+
+
+
+psql "host=testpgsql2.postgres.database.azure.com user=sunwenyi@microsoft.com dbname=postgres password=$PGPASSWORD sslmode=require"
+
+
+
+show binlog events in 'mysql-bin.000040' from 157
+
+
+show binlog events in 'mysql-bin.000212' from 50995474;
+
+show binlog events in 'binlog.000040' from 157;
+
+/subscriptions/3ac1a9c9-2fec-4937-990e-10cb40da12a3/resourceGroups/rg-dai-acf/providers/Microsoft.DBforPostgreSQL/flexibleServers/azr-pgsql-dai-acf
+
+
+
+
+az mysql flexible-server restore --resource-group hanshow-usa --name restore-hussmann-template-db01 --source-server us-hussman-prd-template-database01 --restore-time "2024-06-12T04:48:03Z" --vnet hanshow-usa-vnet --subnet mysql-usa-poc-to-prd-template --private-dns-zone testDNS.mysql.database.azure.com
+
+
+az account set --subscription d15faa7e-c8b3-4421-928c-9931bc6ef84b
+
+az mysql server create --resource-group mysql --name wenyipgbasic1 --location eastus --admin-user azureuser --admin-password SUNwenyi1234 --sku-name B_Gen5_1
+
+az postgres server create --name wenyib --resource-group postgresql --location "eastasia" --admin-user azureuser --admin-password SUNwenyi1234 --sku-name B_Gen5_1
+
+az postgres server create --name wenyitestgp2 --resource-group postgresql --location "westus" --admin-user azureuser --admin-password SUNwenyi1234 --sku-name GP_Gen5_4
+
+az ad sp create-for-rbac -n "wenyisp" --role Contributor --scope /subscriptions/3d984d64-26f6-444b-b5e1-5c691b724432
+
+
+psql -h wenyitestgp1.postgres.database.azure.com -p 5432 -U wenyi.sun01@outlook.com@wenyitestgp1 postgres
+
+
+
+
+Invoke-MySqlServerDbCommand -CustomerSubscriptionId "438c3559-1767-4cef-a798-b199ef6e806a" -CustomerResourceGroup "rg-usa" -ServerName "azure-westus3-mysql-dsvl" -command "analyze_replication_status"
+
+
+Invoke-MySqlServerDbCommand -CustomerSubscriptionId "438c3559-1767-4cef-a798-b199ef6e806a" -CustomerResourceGroup "rg-usa" -ServerName "azure-westus3-mysql-dsvl" -command "list_no_pk_tables"
+
+
+
+CREATE USER newadmin CREATEDB CREATEROLE PASSWORD 'secert';
+
+GRANT azure_pg_admin TO newadmin;
+
+
+
+
+az mysql flexible-server replica create --replica-name testReplicaServer -g testGroup --source-server testserver --zone 3
+
+
+psql "host=fdwtest16.postgres.database.azure.com user=sunwenyi@microsoft.com dbname=postgres password=$PGPASSWORD sslmode=require"
+psql "host=fdwtest16.postgres.database.azure.com user=wenyigroup dbname=postgres password=$PGPASSWORD sslmode=require"
+
+
+psql "host=fdwtest16.postgres.database.azure.com user=dbuser dbname=postgres password=123456 sslmode=require"
+
+
+
+
+az mysql flexible-server update --name testdiag --resource-group mysql --high-availability ZoneRedundant --verbose
+
+
+
+549367808
+789688320
+
+az postgres flexible-server configuration show --resource-group postgredb --server-name testpg15 --name azure.replication_support
+
+az postgres flexible-server parameter show --resource-group postgredb --server-name testpg15 --name azure.replication_support
+
+
+az postgres server configuration show --resource-group postgresql --server-name wenyipgbasic --name azure.replication_support
+
+az postgres server configuration list --resource-group postgresql --server-name wenyipgbasic
+
+
+/subscriptions/d15faa7e-c8b3-4421-928c-9931bc6ef84b/resourceGroups/postgresql/providers/Microsoft.DBforPostgreSQL/flexibleServers/test14
+
+CREATE SUBSCRIPTION sub CONNECTION 'host=wenyimgt.postgres.database.azure.com user=azureuser1 dbname=pub password=SUNwenyi1234' PUBLICATION pub;
+
+ALTER TABLE basic ADD COLUMN address varchar(30);
+
+
+MonOBDockerContainerEvents
+| where TIMESTAMP between (_startTime .. _endTime)
+| where LogicalServerName == servername
+| where Event contains "health"
+
+
+
+
+alter default privileges GRANT CREATE ON SCHEMAS TO newuser;
+
+
+
+
+az account set --subscription "d15faa7e-c8b3-4421-928c-9931bc6ef84b"
+
+az ad sp create-for-rbac -n "wenyi_sp" --role Contributor --scopes /subscriptions/d15faa7e-c8b3-4421-928c-9931bc6ef84b
+
+{
+  "appId": "d380e439-2475-4a0a-8871-b467e18ad272",
+  "displayName": "wenyi_sp",
+  "password": "UeI8Q~flSpE7uOVjvwFnzwXVwYihF8qz8.LlWbp-",
+  "tenant": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+}
+
+
+create role anyusername with login password 'f4df8c38-f52c-4116-bc7e-fe7cd975e651' in role azure_ad_user;
+
+export PGPASSWORD=
+
+psql "host=wenyipgbasic.postgres.database.azure.com user=anyusername@wenyipgbasic dbname=postgres sslmode=require"
+
+
+psql "host=testpr.postgres.database.azure.com user=AIA-G-Azure-SQLServer dbname=postgres sslmode=require"
+
+
+select * from pgaadauth_create_principal_with_oid('anyusername', 'f4df8c38-f52c-4116-bc7e-fe7cd975e651', 'service', false, false);
+
+
+export PGPASSWORD=
+
+psql "host=testpr.postgres.database.azure.com user=anyusername dbname=postgres sslmode=require"
+
+
