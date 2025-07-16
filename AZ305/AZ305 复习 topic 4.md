@@ -268,7 +268,7 @@ B. Azure Data Factory
 
 use Azure Data Factory to transform the data files, and then load the files to Azure Data Lake Storage.
 
-C. the self-hosted integration runtime
+C. the **self-hosted i**ntegration **runtime**
 
 
 
@@ -464,7 +464,7 @@ yes
 
 58、 App1 must be available to users if an Azure datacenter becomes unavailable.
 
-C. Deploy a load balancer and a virtual machine scale set across two availability zone。
+C. **Deploy** a load balancer and a virtual machine scale set across two availability zone。
 
 
 
@@ -490,7 +490,7 @@ D. a resource token and an Access control (IAM) role assignment
 
 The storage must support access control lists (ACLs)
 
-B. a general purpose v2 storage account that has **hierarchical** namespace enabled
+B. a **general purpose v2** storage account that has **hierarchical** namespace enabled
 
 
 

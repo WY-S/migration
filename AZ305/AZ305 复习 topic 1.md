@@ -206,6 +206,12 @@ Encrypt all the data in the storage account by using customer-managed key
 
 
 
+![image-20250716092704872](./AZ305 复习 topic 1.assets/image-20250716092704872.png)
+
+
+
+
+
 24、KV
 
 == 
@@ -343,6 +349,10 @@ Configure App1 to use a REST API call to retrieve an authentication token from t
 41、
 
 Configure **Supported account types in the application registration** and update the **sign-in endpoint**. 
+
+
+
+![image-20250716092851513](./AZ305 复习 topic 1.assets/image-20250716092851513.png)
 
 
 
