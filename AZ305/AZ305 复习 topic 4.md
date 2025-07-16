@@ -2,7 +2,7 @@
 
 Premium > business cri
 
-DMS > Azure Migrate
+DMS > Azure Migrate (在单选题里)
 
 bus > storage queue
 
@@ -26,7 +26,7 @@ Solution: You recommend using an Azure Policy initiative to enforce the location
 
 
 
-#### 1、
+1、
 
 create an ExpressRoute association to VirtualWAN1.
 
@@ -34,7 +34,7 @@ create an ExpressRoute association to VirtualWAN1.
 
 
 
-#### 2、
+2、
 
 == B. Azure Logic Apps and Azure Function
 
@@ -46,7 +46,7 @@ create an ExpressRoute association to VirtualWAN1.
 
 
 
-#### 4、
+4、
 
 access the private IP address of a Microsoft SQL Server instance
 
@@ -54,7 +54,7 @@ access the private IP address of a Microsoft SQL Server instance
 
 
 
-#### 5、
+5、
 
 access the shared files as quickly as possible if the Toronto branch office is inaccessible.
 
@@ -80,7 +80,7 @@ APIM YYN
 
 
 
-#### 8、
+8、
 
 APP GATEWAY
 
@@ -96,7 +96,7 @@ microservices must be restricted to a single private IP address and protected by
 
 
 
-#### 10、 
+10、 
 
 Minimize maintenance overhead
 
@@ -104,7 +104,7 @@ Minimize maintenance overhead
 
 
 
-#### 11、
+11、
 
 What is the minimum number of additional Azure Firewall policies you should create?
 
@@ -138,7 +138,7 @@ What is the minimum number of additional Azure Firewall policies you should crea
 
 
 
-#### 16、
+16、
 
 **TM PROFILE**
 
@@ -240,7 +240,7 @@ C. virtual nodes
 
 
 
-#### 29、
+29、
 
 B. an Azure Data Factory pipeline
 
@@ -264,7 +264,7 @@ B. Azure Data Factory
 
 
 
-#### 31、
+31、
 
 use Azure Data Factory to transform the data files, and then load the files to Azure Data Lake Storage.
 
@@ -312,7 +312,7 @@ A. Azure Front door
 
 
 
-#### 37、
+37、
 
 automatic repairs
 
@@ -348,7 +348,7 @@ Yes
 
 
 
-#### 43、
+43、
 
 SLA for the latency of write operations and the throughput.
 
@@ -364,7 +364,7 @@ B. premium block blobs
 
 
 
-#### 45、 
+45、 
 
 Ensures that applications can access the data by using a REST connection Hosts 20 independent tables of varying sizes and usage patterns Automatically replicates the data to a second Azure region Minimizes costs
 
@@ -396,7 +396,7 @@ readonly
 
 
 
-#### 49、3D geometry
+49、3D geometry
 
 D. Create a render farm that uses Azure Batch
 
@@ -404,7 +404,7 @@ E. Enable parallel task execution on compute nodes
 
 
 
-#### 50、
+50、
 
 You need to migrate the application data to Azure
 
@@ -436,7 +436,7 @@ D. the same geography only
 
 
 
-#### 54、
+54、
 
 DNN
 
@@ -486,11 +486,11 @@ D. a resource token and an Access control (IAM) role assignment
 
 ### HARD: 61, 64，86，87
 
-#### 61、
+61、
 
 The storage must support access control lists (ACLs)
 
-B. a general purpose v2 storage account that has hierarchical namespace enabled
+B. a general purpose v2 storage account that has **hierarchical** namespace enabled
 
 
 
@@ -512,7 +512,7 @@ E. Azure Data Factory
 
 
 
-#### 64、low-priority == batch
+64、low-priority == batch
 
 ![image-20250715215645035](./AZ305 复习 topic 4.assets/image-20250715215645035.png)
 
@@ -552,7 +552,7 @@ C. Azure Queue Storage
 
 72、 network traffic between virtual networks must be filtered by using FQDNs
 
-A. Azure Virtual **WAN** with a secured virtual hub
+**A. Azure Virtual WAN with a secured virtual hub**
 
 
 
@@ -560,7 +560,7 @@ A. Azure Virtual **WAN** with a secured virtual hub
 
 
 
-#### 74、
+74、
 
 只有3个选项
 
@@ -634,7 +634,7 @@ D. Premium
 
 
 
-#### 86、
+86、
 
 WAN hubs 3
 
@@ -644,7 +644,7 @@ SKU Standard
 
 
 
-#### 87、KEDA == horizontal pod autoscaler
+87、KEDA == horizontal pod autoscaler
 
 A. Configure the horizontal pod autoscaler. 
 
@@ -714,6 +714,14 @@ B. Azure Data Studio
 
 #### 104、
 
+You have an on-premises Microsoft SQL server named SQL1 that hosts 50 databases. 
+
+You plan to migrate SQL1 to Azure SQL Managed Instance. 
+
+You need to perform an offline migration of SQL1. The solution must minimize administrative effort.
+
+
+
 B. Azure Database Migration Service （DMS）
 
 
@@ -724,7 +732,7 @@ B. Azure Database Migration Service （DMS）
 
 107、000
 
-#### 108、
+108、
 
 OWASP
 
@@ -734,7 +742,7 @@ JWTs
 
 
 
-#### 109、
+109、
 
 Solution: You recommend using an Azure Policy initiative to enforce the location **of resource groups**.
 
@@ -742,7 +750,7 @@ NO
 
 
 
-#### 110、
+110、
 
 The number of instances must be managed automatically depending on the load.
 
@@ -750,11 +758,11 @@ B. Azure App Service
 
 
 
-#### 111、
+111、
 
 ![image-20250715221852100](./AZ305 复习 topic 4.assets/image-20250715221852100.png)
 
-#### 112、
+112、
 
 ![image-20250715221919394](./AZ305 复习 topic 4.assets/image-20250715221919394.png)
 
@@ -766,7 +774,7 @@ D. Deploy an **ingress controller** to AKS1.
 
 
 
-#### 114、
+114、
 
 ![image-20250715222006923](./AZ305 复习 topic 4.assets/image-20250715222006923.png)
 
@@ -810,7 +818,7 @@ A. Apache Spark
 
 123、000
 
-#### 124、
+124、
 
 AMPLS 1
 
@@ -824,7 +832,7 @@ AMPLS 1
 
 
 
-#### 126、
+126、
 
 **ABAC**
 

@@ -10,6 +10,10 @@ Gateway Load Balancer > front door
 
 
 
+有2个问题的是ZRS
+
+
+
 ## 1-27
 
 ### HARD: 1，7，9，12，17，18，21，23，24
@@ -140,7 +144,7 @@ Reporting: **Azure Backup only**
 
 
 
-#### 17、
+17、
 
 Azure servie or service tier: **The hyperscale service tier**
 
@@ -176,7 +180,7 @@ Encryption method: **Always Encrypted**
 
 
 
-#### 21、 
+21、 
 
 incoming traffic for VMSS1 across NVA1 and NVA2
 
@@ -196,7 +200,7 @@ Sub2: **A Resource Guard**
 
 
 
-#### 23、MARS = LRS
+23、MARS = LRS
 
 On the servers: **The Microsoft Azure Recovery Services (MARS) agent**
 
@@ -206,7 +210,7 @@ For the storage: **LRS**
 
 
 
-#### 24、
+24、
 
 For global load balancing: **Azure Front door**
 

@@ -308,7 +308,7 @@ Configure a JSON Web token validation policy by using: <font color = red>APIM</f
 
 
 
-#### 36、
+36、
 
 an authentication solution for Azure Functions
 
@@ -430,7 +430,7 @@ Access: <font color = red>A managed service identity (MSI)</font>
 
 
 
-#### 57、
+57、
 
 minimum number of Azure Monitor workspaces 
 
