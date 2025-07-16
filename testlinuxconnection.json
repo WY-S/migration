@@ -1,0 +1,231 @@
+ssh azureuser@52.255.160.146 -p 2222
+
+
+10.0.2.4
+
+mysql -h testtoday1.mysql.database.azure.com -u azureuser -p
+
+mysql -h burstable.mysql.database.azure.com -u azureuser -p
+
+nc -vz burstable.mysql.database.azure.com 3306
+
+
+wget https://github.com/Percona-Lab/mysql_random_data_load/releases/download/v0.1.12/mysql_random_data_load_0.1.12_Linux_x86_64.tar.gz
+
+tar -zxvf mysql_random_data_load_0.1.12_Linux_x86_64.tar.gz
+
+./mysql_random_data_load abc WMTRANSACTION_OLD 1700000 --user=azureuser --password=SUNwenyi1234 --port=3306  --max-threads=4 --bulk-size=1000 --host=testload.mysql.database.azure.com
+
+
+mysql -h wenyis8.mysql.database.azure.com -u azureuser@wenyis8 -p
+
+
+
+mysqldump -uroot -p abc > abc.sql
+
+
+find . -name 'abc.sql' -exec grep -i 'DEFINER' {} \; -print
+sed -i 's/DEFINER=[^*]*\*/\*/g' abc.sql
+/*!50013 DEFINER=`xxx`@`%` SQL SECURITY DEFINER */
+
+CREATE USER 'username'@'%' IDENTIFIED BY '123456';
+GRANT ALL PRIVILEGES ON abc.* to 'username'@'%';
+
+select user,host from mysql.user;
+
+
+CREATE
+    ALGORITHM = UNDEFINED
+    DEFINER = `username`@`%`
+    SQL SECURITY DEFINER
+VIEW `v_stu` AS
+    SELECT * FROM student;
+
+
+mysql -h wenyimysql8.mysql.database.azure.com -u azureuser -p abc < abc.sql
+
+CREATE ALGORITHM = UNDEFINED DEFINER = `username`@`%` SQL SECURITY DEFINER VIEW `v_stu1` AS SELECT * FROM student;
+
+
+CREATE ALGORITHM = UNDEFINED DEFINER = `username`@`192.168.%` SQL SECURITY DEFINER VIEW `v_stu2` AS SELECT * FROM student;
+ALTER ALGORITHM = UNDEFINED DEFINER = `azureuser`@`%` SQL SECURITY DEFINER VIEW `v_stu2` AS SELECT * FROM student;
+
+
+ALTER ALGORITHM = UNDEFINED DEFINER = `azureuser1`@`%` SQL SECURITY DEFINER VIEW `v_stu1` AS SELECT * FROM student;
+
+
+// 尝试TCPPING
+
+apt-get install tcptraceroute
+
+cd /usr/bin
+sudo wget http://www.vdberg.org/~richard/tcpping
+sudo chmod 755 tcpping
+
+sudo tcpdump  -w output.pcap
+
+chmod 777 output.pcap
+
+scp -P 2222 azureuser@52.255.160.146:/home/azureuser/output.pcap
+
+
+tcpping wenyimysql.mysql.database.azure.com 3306
+
+// 
+
+let "wenyipgsinglet"
+location="East US"
+resourceGroup="msdocs-postgresql-rg-$randomIdentifier"
+tag="create-postgresql-server-and-firewall-rule"
+server="msdocs-postgresql-server-$randomIdentifier"
+sku="GP_Gen5_2"
+login="azureuser"
+password="Pa$$w0rD-$randomIdentifier"
+
+az postgres server create --name "wenyipgsinglet" --resource-group "postgredb" --location "East US" --admin-user $login --admin-password $password --sku-name $sku
+
+// -- --
+sudo su - postgres
+
+psql -h testcmk12.postgres.database.azure.com -p 5432 -U azureuser postgres
+psql -h 40.117.73.239 -p 5432 -U azureuser postgres
+
+nslookup usedpsi06zpql06.postgres.database.azure.com
+
+
+// -- 配置ubuntu pod --
+kubectl apply -f myubuntu.yaml
+kubectl exec -it myubuntu -- \bin/bash
+
+sudo apt update
+sudo apt install postgresql-client
+apt install curl
+apt install jq
+
+
+// -- 部署Kubernetes PostgreSQL实例
+https://lihaoquan.me/posts/pg-in-k8s/
+
+// -- 配置pgsql主从 --
+ssh azureuser@20.42.106.31 -p 2222
+ssh azureuser@74.235.110.244 -p 2222
+
+sudo su - postgres
+
+CREATE ROLE replica login replication encrypted password 'replica';
+
+sudo vim /etc/postgresql/12/main/pg_hba.conf
+sudo vim /etc/postgresql/12/main/postgresql.conf
+
+
+pg_basebackup -D /etc/postgresql/12/main -h 10.1.0.13 -p 5432 -U replica -X stream -P
+
+pg_basebackup -h 10.1.0.13 -U replica -F p -X stream -P -R -D /var/lib/postgresql/12/main
+
+rm -rf /var/lib/postgresql/12/main
+
+
+'host=10.1.0.13 port=5432 user=replica password=replica'
+
+chown -R postgres.postgres /etc/postgresql/12/data
+
+systemctl restart postgresql
+systemctl restart postgresql.service
+
+sudo /etc/init.d/postgresql restart
+
+select pid from pg_stat_replication;
+
+
+// -- sysbench --
+sudo apt-get update
+sudo apt-get install sysbench
+
+sudo apt-get update
+sudo apt-get install mysql-server
+
+ssh azureuser@172.203.233.16 -p 2222
+
+ssh azureuser@20.106.193.159 -p 2222
+
+mysql -h sysbench.mysql.database.azure.com -u azureuser -p
+
+sysbench oltp_write_only.lua  --tables=10 --table-size=1000000 --threads=10 --time=720000 --mysql-host=sysbench.mysql.database.azure.com --mysql-db=testdb --mysql-user=azureuser --mysql-password=SUNwenyi1234 --mysql-port=3306 --report-interval=10 --percentile=95 prepare
+
+sysbench --db-driver=mysql --mysql-host=172.214.27.209 --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --mysql-db=testdb --table_size=2000000 --tables=10  --threads=10 --time=600 oltp_read_write prepare
+
+
+
+mysql -h sysbench.mysql.database.azure.com -u azureuser -p
+
+sysbench --db-driver=mysql --mysql-host=172.214.27.209 --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --table_size=1000000 --tables=20  --threads=20 --time=600 oltp_read_write prepare
+
+sysbench --db-driver=mysql --mysql-host=localhost --mysql-port=3306 --mysql-user=root --mysql-password=123456 --mysql-db=testdb --table_size=1000000 --tables=20  --threads=20 --time=600 oltp_read_write prepare
+
+sysbench --db-driver=mysql --mysql-host=sysbench1.mysql.database.azure.com --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --table_size=1000000 --tables=20  --threads=20 --time=600 oltp_read_write prepare
+
+sysbench --db-driver=mysql --mysql-host=sysbench2.mysql.database.azure.com --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --table_size=1000000 --tables=20  --threads=20 --time=600 oltp_read_write prepare
+
+sysbench --db-driver=mysql --mysql-host=sysbench3.mysql.database.azure.com --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --table_size=1000000 --tables=20  --threads=20 --time=600 oltp_read_write prepare
+
+
+
+sysbench --db-driver=mysql --time=1800 --threads=15 --report-interval=1 --mysql-host=172.214.27.209 --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --mysql-db=sbtest --tables=20 --table_size=1000000 oltp_read_write --db-ps-mode=disable run >> remote-sysbench.log
+
+sysbench --db-driver=mysql --time=1800 --threads=15 --report-interval=1 --mysql-host=localhost --mysql-port=3306 --mysql-user=root --mysql-password=123456 --mysql-db=testdb --tables=20 --table_size=1000000 oltp_read_write --db-ps-mode=disable run >> local-sysbench.log
+
+sysbench --db-driver=mysql --time=1800 --threads=15 --report-interval=1 --mysql-host=sysbench1.mysql.database.azure.com --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --mysql-db=sbtest --tables=20 --table_size=1000000 oltp_read_write --db-ps-mode=disable run >> remote-sysbench1.log
+
+sysbench --db-driver=mysql --time=1800 --threads=15 --report-interval=1 --mysql-host=sysbench2.mysql.database.azure.com --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --mysql-db=sbtest --tables=20 --table_size=1000000 oltp_read_write --db-ps-mode=disable run >> remote-sysbench2.log
+
+sysbench --db-driver=mysql --time=1800 --threads=15 --report-interval=1 --mysql-host=sysbench3.mysql.database.azure.com --mysql-port=3306 --mysql-user=azureuser --mysql-password=SUNwenyi1234 --mysql-db=sbtest --tables=20 --table_size=1000000 oltp_read_write --db-ps-mode=disable run >> remote-sysbench3.log
+
+
+
+
+set global innodb_buffer_pool_size = 4294967296;
+
+/etc/mysql/mysql.conf.d/mysqld.cnf
+
+
+sudo service mysql restart
+
+mysql -h 10.18.0.4 -u root -p
+update user set host = '%'  where user ='root';
+// -- 
+
+
+
+CREATE TABLE users1 (id int PRIMARY KEY, ip int, name text);
+CREATE TABLE posts1 (id int PRIMARY KEY, author_id int, CONSTRAINT fk_contact_country_country_id FOREIGN KEY (author_id) REFERENCES users(ip));
+
+select create_distributed_table('users1', 'id');
+select create_distributed_table('posts1', 'id');
+
+
+
+CREATE TABLE reference_table(id int, referencing_column int REFERENCES users1(id));
+SELECT create_reference_table('reference_table');
+
+
+CREATE TABLE users2 (id int PRIMARY KEY, ip int, name text);
+
+
+CREATE TABLE test1 (id int PRIMARY KEY, name text);
+CREATE TABLE test2 (id int PRIMARY KEY, author_id int, CONSTRAINT fk_id FOREIGN KEY (author_id) REFERENCES users(id));
+CREATE TABLE test3 (id int, referencing_column int REFERENCES test1(id));
+
+CREATE TABLE test1 (id int PRIMARY KEY, name text);
+CREATE TABLE test3 (id int, referencing_column int REFERENCES test1(id));
+SELECT create_reference_table('test3');
+select create_distributed_table('test1', 'id');
+select create_distributed_table('test2', 'id');
+
+
+pg_dump -h c-cosmoscitus.6qmqdwfqbibxpc.postgres.cosmos.azure.com -U citus -p 5432 --schema-only citus > citus_dump.sql
+
+
+pg_dump -h testpgsql2.postgres.database.azure.com -U azureuser -p 5432 -N cron --schema-only postgres > postgres_schema.sql
+pg_dump -h wenyipgdb.postgres.database.azure.com -U azureuser -p 5432 -N cron postgres > postgres_dump1.sql
+// -- 
+

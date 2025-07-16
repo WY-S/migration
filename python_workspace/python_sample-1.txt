@@ -1,0 +1,79 @@
+import os
+import requests
+import time
+import sys
+
+
+requests.packages.urllib3.disable_warnings()
+def get_token():
+    url = "https://login.microsoftonline.com/{租户id}/oauth2/token"
+
+    payload='grant_type=client_credentials&client_id={serviceprinciple的clientid}&client_secret={密码}&resource=https%3A%2F%2Fmanagement.azure.com%2F'
+    headers = {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    if response.status_code == 200:
+        token = response.json().get('access_token')
+        Bearertoken = 'Bearer ' + token
+        return Bearertoken
+    else:
+        return False
+    
+
+
+
+def list_slowlog_flex():
+    token = get_token()
+    url = "https://management.azure.com/subscriptions/{订阅id}/resourceGroups/{资源组}/providers/Microsoft.DBforMySQL/flexibleServers/{服务器名称}/logFiles?api-version=2021-12-01-preview"
+    payload={}
+    headers = {
+        'Authorization': token}
+    response = requests.request("GET", url, headers=headers, data=payload)
+    link = response.json().get('value')
+    for item in link:
+        slowlog_name = item['name']
+        slowlog_url = item['properties']['url']
+        #print(slowlog_url)
+        # 下载到当前目录的flexlogs文件夹中
+        path_dir = os.path.split(os.path.realpath(sys.argv[0]))[0]
+        logdir = os.path.join(path_dir,'flexlogs')
+        download_slow_log(slowlog_url,logdir,slowlog_name)
+
+    #return link
+
+def download_slow_log(slowlog_url,rds_logdir,slowlog_name):
+        try:
+            get_size = requests.get(slowlog_url,stream=True,verify=False)
+            total_size = int(get_size.headers['Content-Length'])
+            target_name = os.path.join(rds_logdir, slowlog_name)
+            if os.path.exists(target_name):
+                temp_size = os.path.getsize(target_name)
+            else:
+                temp_size = 0
+            if total_size > temp_size:
+                headers = {'Range': 'bytes=%d-' %temp_size}
+                req = requests.get(slowlog_url, stream=True, verify=False,headers=headers)
+                with open(target_name,'ab') as f:
+                    for chunk in req.iter_content(chunk_size=1024):
+                        if chunk:
+                            temp_size += len(chunk)
+                            f.write(chunk)
+                            f.flush()
+                            done = int(50 * temp_size / total_size)
+                            sys.stdout.write('\r[%s%s] %d%%' % (
+                          '>' * done, ' ' * (50 - done), 100 * temp_size / total_size))
+                            sys.stdout.flush()
+                print('\n')
+                return target_name
+        except Exception as e:
+            print('\n',slowlog_name + ':', e)
+            return False
+
+
+if __name__=="__main__":
+    #print(get_token())
+    print(list_slowlog_flex())
+    
+    
+

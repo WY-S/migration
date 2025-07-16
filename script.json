@@ -1,0 +1,234 @@
+ssh azureuser@20.62.165.173 -p 2222
+
+
+
+psql -h msdocs-postgresql-server-673161726.postgres.database.azure.com -p 5432 -U azureuser@msdocs-postgresql-server-673161726 postgres
+
+ssh azureuser@20.231.65.226 -p 2222
+
+
+openssl x509 -in DigiCertGlobalRootCA.crt -out DigiCertGlobalRootCA.pem -outform PEM
+
+openssl x509 -in DigiCertGlobalRootCA.crt -text -noout
+
+
+openssl x509 -in RSAcert.crt -out RSAcert.pem -outform PEM
+
+openssl x509  -inform DER -in '.\Microsoft RSA Root Certificate Authority 2017.crt' -out certificateRoot1.pem -outform PEM
+
+
+az mysql flexible-server restore --resource-group hanshow-usa --name restore-hussmann-template-db01 --source-server us-hussman-prd-template-database01 --restore-time "2024-06-12T04:48:03Z" --subnet /subscriptions/7c405b7e-8bb6-4cd6-ab03-dfbffe85c4ca/resourceGroups/copy1_hm/providers/Microsoft.Network/virtualNetworks/us-hussmann-copy1-template-vnet/subnets/mysql-template --private-dns-zone restore-hussmann-template-db01.private.mysql.database.azure.com
+
+
+az mysql flexible-server restore --resource-group mysql --name restorenewtest --source-server wenyimysql5 --restore-time "2024-06-12T04:48:03Z" --subnet /subscriptions/25dfc6b1-fc64-4b88-ba09-4c6864d0cadc/resourceGroups/testtoday/providers/Microsoft.Network/virtualNetworks/testus/subnets/default --private-dns-zone wenyimysql5.private.mysql.database.azure.com
+
+
+az mysql flexible-server create --location eastus --resource-group mysql --name newtestbug --admin-user azureuser --admin-password SUNwenyi1234 --sku-name Standard_D2ds_v4 --tier GeneralPurpose --version 8.0.21 --high-availability ZoneRedundant --subnet /subscriptions/25dfc6b1-fc64-4b88-ba09-4c6864d0cadc/resourceGroups/testtoday/providers/Microsoft.Network/virtualNetworks/testus/subnets/default --private-dns-zone newtestbug.private.mysql.database.azure.com
+
+az mysql flexible-server create --location eastus --resource-group mysql --name newtestbug1 --admin-user azureuser --admin-password SUNwenyi1234 --sku-name Standard_D2ds_v4 --tier GeneralPurpose --version 8.0.21 --high-availability Disabled --subnet /subscriptions/25dfc6b1-fc64-4b88-ba09-4c6864d0cadc/resourceGroups/testtoday/providers/Microsoft.Network/virtualNetworks/testus1/subnets/default --private-dns-zone newtestbug1.private.mysql.database.azure.com
+
+
+az mysql flexible-server create --location westcentralus --resource-group mysql --name newtestbug1 --admin-user azureuser --admin-password SUNwenyi1234 --sku-name Standard_D2ds_v4 --tier GeneralPurpose --version 8.0.21 --high-availability Disabled --subnet /subscriptions/25dfc6b1-fc64-4b88-ba09-4c6864d0cadc/resourceGroups/testtoday/providers/Microsoft.Network/virtualNetworks/testus1/subnets/default --private-dns-zone newtestbug1.private.mysql.database.azure.com
+
+
+flush binary logs;
+
+
+
+CREATE USER "itsdt-pgsql-bangladeshdb-readwrite-prd" WITH PASSWORD '123456';
+CREATE USER "itsdt-pgsql-bangladeshdb-readonly-prd" WITH PASSWORD '123456';
+CREATE USER "itsdt-pgsql-bangladeshdb-readonly-basic-prd" WITH PASSWORD '123456';
+
+
+GRANT "itsdt-pgsql-bangladeshdb-readwrite-prd" TO "azureuser";
+
+grant connect on database "bisd-infra-db" to "itsdt-pgsql-bangladeshdb-readonly-prd";
+grant usage on schema public to "itsdt-pgsql-bangladeshdb-readonly-prd";
+grant select on all tables in schema public to "itsdt-pgsql-bangladeshdb-readonly-prd";
+ALTER DEFAULT PRIVILEGES FOR USER "itsdt-pgsql-bangladeshdb-readwrite-prd" IN SCHEMA public GRANT SELECT ON SEQUENCES TO "itsdt-pgsql-bangladeshdb-readonly-prd";
+ALTER DEFAULT PRIVILEGES FOR USER "itsdt-pgsql-bangladeshdb-readwrite-prd" IN SCHEMA public GRANT SELECT ON TABLES TO "itsdt-pgsql-bangladeshdb-readonly-prd";
+
+grant connect on database "bisd-infra-db" to "itsdt-pgsql-bangladeshdb-readwrite-prd";
+grant usage on schema public to "itsdt-pgsql-bangladeshdb-readwrite-prd"; 
+grant usage, create on schema public to "itsdt-pgsql-bangladeshdb-readwrite-prd"; 
+grant select, insert, update, delete on all tables in schema public to "itsdt-pgsql-bangladeshdb-readwrite-prd";
+alter default privileges in schema public grant select, insert, update, delete on tables to "itsdt-pgsql-bangladeshdb-readwrite-prd";
+grant usage on all sequences in schema public to "itsdt-pgsql-bangladeshdb-readwrite-prd";
+alter default privileges in schema public grant usage on sequences to "itsdt-pgsql-bangladeshdb-readwrite-prd";
+
+GRANT "itsdt-pgsql-bangladeshdb-readonly-basic-prd" TO "azureuser";
+grant connect on database "bisd-infra-db" to "itsdt-pgsql-bangladeshdb-readonly-basic-prd";
+grant usage on schema public to "itsdt-pgsql-bangladeshdb-readonly-basic-prd";
+grant select on all tables in schema public to "itsdt-pgsql-bangladeshdb-readonly-basic-prd";
+ALTER DEFAULT PRIVILEGES FOR ROLE "itsdt-pgsql-bangladeshdb-readonly-basic-prd" IN SCHEMA public GRANT SELECT ON SEQUENCES TO "itsdt-pgsql-bangladeshdb-readonly-basic-prd";
+ALTER DEFAULT PRIVILEGES FOR ROLE "itsdt-pgsql-bangladeshdb-readonly-basic-prd" IN SCHEMA public GRANT SELECT ON TABLES TO "itsdt-pgsql-bangladeshdb-readonly-basic-prd";
+revoke select on boost from "itsdt-pgsql-bangladeshdb-readonly-basic-prd";
+revoke select on boost_restricted from "itsdt-pgsql-bangladeshdb-readonly-basic-prd";
+REVOKE "itsdt-pgsql-bangladeshdb-readonly-basic-prd" FROM "azureuser";
+
+REVOKE "itsdt-pgsql-bangladeshdb-readwrite-prd" FROM "azureuser";
+
+
+psql -h wenyipsql.postgres.database.azure.com -p 5432 -U itsdt-pgsql-bangladeshdb-readwrite-prd bisd-infra-db
+
+psql -h wenyipsql.postgres.database.azure.com -p 5432 -U itsdt-pgsql-bangladeshdb-readonly-basic-prd bisd-infra-db
+
+
+create database dbname;
+
+CREATE TABLE boost(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL,
+   JOIN_DATE      DATE
+);
+
+CREATE TABLE boost_restricted(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL,
+   JOIN_DATE      DATE
+);
+
+CREATE TABLE COMPANY(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL,
+   JOIN_DATE      DATE
+);
+
+CREATE USER "user" WITH PASSWORD '123456';
+GRANT "user" TO "azureuser";
+grant connect on database "dbname" to "user";
+grant usage on schema public to "user";
+grant select on all tables in schema public to "user";
+ALTER DEFAULT PRIVILEGES FOR ROLE "user" IN SCHEMA public GRANT SELECT ON TABLES TO "user";
+revoke select on boost from "user";
+revoke select on boost_restricted from "user";
+
+CREATE USER "user1" WITH PASSWORD '123456';
+GRANT "user1" TO "azureuser";
+grant connect on database "dbname" to "user1";
+grant usage on schema public to "user1";
+grant select on all tables in schema public to "user1";
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO "user1";
+revoke select on boost from "user1";
+revoke select on boost_restricted from "user1";
+
+CREATE USER "user2" WITH PASSWORD '123456';
+GRANT "user2" TO "azureuser";
+grant connect on database "dbname" to "user2";
+grant usage, create on schema public to "user2"; 
+grant select, insert, update, delete on all tables in schema public to "user2";
+alter default privileges in schema public grant select, insert, update, delete on tables to "user2";
+
+REVOKE "user" FROM "azureuser";
+REVOKE "user1" FROM "azureuser";
+REVOKE "user2" FROM "azureuser";
+
+
+psql -h testscript2.postgres.database.azure.com -p 5432 -U user dbname
+psql -h testscript2.postgres.database.azure.com -p 5432 -U user1 dbname
+psql -h testscript2.postgres.database.azure.com -p 5432 -U user2 dbname
+
+
+
+select 'ALTER TABLE ' || t.tablename || ' OWNER TO new_owner;' 
+ from  pg_tables t
+ where t.tableowner != 'dbname';
+
+alter table public.* owner to abtadm;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT CREATE on SCHEMA to dbuser;
+
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT insert,select,update,delete,truncate on tables to dbuser;
+
+
+CREATE TABLE DBS1(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL,
+   JOIN_DATE      DATE   
+);
+
+CREATE TABLE DBS(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL,
+   JOIN_DATE      DATE   
+);
+
+
+psql -h wenyitestgpx.postgres.database.azure.com -p 5432 -U azuruser@wenyitestgpx postgres
+
+
+
+
+
+
+
+
+
+select 'ALTER TABLE ' || t.tablename || ' OWNER TO abtadm;' 
+ from  pg_tables t
+ where schemaname='public' and tableowner='manager';
+
+
+select table_catalog,
+table_schema, 
+       table_name, 
+       column_name,
+       collation_name
+from information_schema.columns;
+
+
+select * from pg_tables where schemaname='public' and tableowner='azureuser';
+
+SELECT * FROM pg_database;
+
+CREATE DATABASE "CustomCollation1"
+WITH
+ENCODING = 'UTF8'
+LC_COLLATE = 'tb' -- Match collcollate from pg_collation
+LC_CTYPE = 'tb' -- Match collctype from pg_collation
+TEMPLATE = template0;
+
+
+select table_schema, 
+       table_name, 
+       column_name,
+       collation_name
+from information_schema.columns
+where collation_name is not null;
+
+
+select * from pg_collation where collname<>collcollate;
+
+
+
+
+FDW
+
+https://leileiluoluo.com/posts/postgres-foreign-data-wrappers.html
+
+
+
+
+
+
+
+
+
+
+
+

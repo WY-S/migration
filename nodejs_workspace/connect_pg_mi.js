@@ -1,0 +1,39 @@
+const { DefaultAzureCredential } = require("@azure/identity"); 
+const { Pool } = require('pg');
+
+async function main() {
+    const credential = new DefaultAzureCredential();
+
+    // Get access token  
+    const accessToken = await credential.getToken("https://ossrdbms-aad.database.windows.net");  
+  
+    // PostgreSQL connection config  
+    const config = {  
+        host: 'testpgsql2.postgres.database.azure.com',  
+        port: 5432,  
+        user: 'testvmclient', // User Managed Identity  
+        password: accessToken.token,  
+        database: 'postgres',  
+        ssl: true  
+    };  
+  
+    // Create a new pool using config  
+    const pool = new Pool(config);  
+  
+    // Connect to PostgreSQL  
+    pool.connect((err, client, done) => {  
+        if (err) throw err;  
+        client.query('SELECT * FROM inventory', (err, res) => {  
+            done();  
+            if (err) {  
+                console.log(err.stack);  
+            } else {  
+                console.log(res.rows);  
+            }  
+        });  
+    });  
+}  
+  
+main().catch((err) => {  
+    console.error("An error occurred: ", err);  
+});
